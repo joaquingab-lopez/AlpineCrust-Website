@@ -90,3 +90,44 @@ li a:hover{
     display: flex;
     flex-direction: column;
 }
+.cover img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(50%);
+}
+.covertext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.covertext h3{
+    color: #EDE9DE;
+    font-family: "Instrument Sans";
+    font-size: 25px;
+    font-weight: 600;
+}
+.covertext h1{
+    color: #EDE9DE;
+    font-family: "Instrument Serif";
+    font-size: 40px;
+    font-weight: 400;
+}
+.covertext button{
+    background-color: #BD6442;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    color: #EDE9DE;
+    font-size: 20px;
+    font-family: "Instrument Sans";
+    font-weight: 600;
+}
+.covertext button:hover{
+    background-color: #EDE9DE;
+    color: #BD6442;
+}
