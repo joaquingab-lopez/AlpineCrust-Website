@@ -1,6 +1,10 @@
 *{
     text-decoration: none;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
 .navbox{
     background: #475738;
     font-family: "Instrument Sans";
@@ -8,6 +12,7 @@
     padding-left: 50px;
 }
 .navbar{
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -129,5 +134,82 @@ li a:hover{
 }
 .covertext button:hover{
     background-color: #475738;
+    color: #EDE9DE;
+}
+.preview{
+    background-color: #EDE9DE;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.line{
+    background-color: #EDE9DE;
+}
+.line h4{
+    color: #447C9D;
+    font-family: "Instrument Serif";
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.pastry{
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+}
+.pastry img{
+    width:300px;
+    height: 300px;
+    object-fit: cover;
+}
+.pastry h5{
+    color: #447C9D;
+    font-family: "Instrument Sans";
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.pastry button{
+    background-color: #447C9D;
+    border: none;
+    border-radius: 10px;
+    color: #EDE9DE;
+    font-family: "Instrument Sans";
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+.pastry button:hover{
+    background-color: #BD6442;
+    color: #EDE9DE;
+}
+.images img{
+    width: 33.33%;
+    height: 150px;
+    object-fit: cover;
+    filter: brightness(50%);
+    display: block;
+    float: left;
+}
+.view{
+    background-color: #EDE9DE;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.view button{
+    background-color: #BD6442;
+    border: none;
+    border-radius: 10px;
+    color: #EDE9DE;
+    font-family: "Instrument Sans";
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+.view button:hover{
+    background-color: #447C9D;
     color: #EDE9DE;
 }
