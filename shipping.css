@@ -95,3 +95,42 @@ li a:hover{
     display: flex;
     flex-direction: column;
 }
+.images img{
+    width: 33.33%;
+    height: 150px;
+    object-fit: cover;
+    filter: brightness(50%);
+    display: block;
+    float: left;
+}
+.box{
+    background-color: #EDE9DE;
+}
+.shippingpolicy{
+    background-color: #475738;
+    color: #EDE9DE;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding: 50px;
+}
+.shippingpolicy h1{
+    font-family: "Instrument Serif";
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+.shippingpolicy h2{
+    font-family: "Instrument Serif";
+    font-size: 30px;
+    font-weight: 400;
+}
+.shippingpolicy p{
+    font-family: "Instrument Sans";
+    font-size: 18px;
+    font-weight: 300;
+}
+.shippingpolicy ul{
+    font-family: "Instrument Sans";
+    font-size: 18px;
+    font-weight: 300;
+}
