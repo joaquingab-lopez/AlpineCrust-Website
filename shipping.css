@@ -134,3 +134,19 @@ li a:hover{
     font-size: 18px;
     font-weight: 300;
 }
+.shippingpolicy button{
+    background-color: #BD6442;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    color: #EDE9DE;
+    font-size: 20px;
+    font-family: "Instrument Sans";
+    font-weight: 600;
+    display: block;
+    margin: auto;
+}
+.shippingpolicy button:hover{
+    background-color: #EDE9DE;
+    color: #475738;
+}
