@@ -4,6 +4,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #ede9de;
 }
 .navbox{
     background: #475738;
@@ -45,6 +46,117 @@ li a:hover{
 .cart img:hover{
     transform: scale(1.1);
 }
+
+.Main {
+    margin: 20px;
+    padding: 10px;
+}
+
+.Main h4 {
+    color: #447C9D;
+    font-family: "Instrument Serif";
+    font-size: 60px;
+    font-weight: 500;
+    margin-left: 80px;
+}
+
+.Selection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5%;
+    gap: 120px;
+}
+
+.Product {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    align-items: start;
+    gap: 10px;
+    padding: px;
+    position: relative;
+}
+
+.Product img {
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
+    margin: 5px;
+    display: block;
+}
+
+.image {
+    gap: 5px;
+    width: 100%;
+    height: 200px;
+}
+
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+    gap: 5px;
+}
+
+.name {
+    background-color: #bd6442;
+    font-family: "Instrument Serif";
+    font-size: 30px;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.price {
+    background-color: #447c9d;
+    font-family: "Instrument Serif";
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.button {
+    background-color: #bd6442; 
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #fa4700;
+}
+
+.number {
+    background-color: #bd6442;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    min-width: 20px;
+    text-align: center;
+}
+
+
+.details {
+    color: #447C9D;
+    font-family: "Instrument Serif";
+    font-size: 15px;
+}
+
 .footer{
     background: #447C9D;
     font-family: "Instrument Sans";
